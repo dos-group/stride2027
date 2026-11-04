@@ -1,0 +1,162 @@
+a,
+a:hover,
+a:focus {
+  color: #a81324;
+}
+.nav-pills > li.active > a {
+  color: #a81324;
+  background-color: #f8e7e9;
+}
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #a81324;
+  background-color: #f8e7e9;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: #f8e7e9;
+}
+span:lang(ja) {
+  font-family: sans-serif;
+}
+span:lang(cn) {
+  font-family: sans-serif;
+}
+.temp > li > a {
+  display: inline;
+  padding: 0px 0px !important;
+}
+.temp > li > a:hover,
+.temp > li > a:focus {
+  text-decoration: underline;
+  background-color: transparent;
+}
+.temp > li.disabled > a:hover,
+.temp > li.disabled > a:focus {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+li.affiliation {
+  margin-left: 1em; 
+  margin-bottom: 0.6em; 
+  padding-bottom: 0;
+}
+li.name {
+  margin-left: 1em;
+  padding-bottom: 0;
+  font-weight: bold;
+}
+li.head {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+
+.site-layout {
+  padding: 20px;
+}
+.site-heading {
+  margin-bottom: 0;
+}
+.site-sidebar {
+  margin-top: 0;
+}
+.site-content {
+  padding-left: 40px;
+  padding-right: 15px;
+}
+.list-compact {
+  padding-bottom: 0;
+}
+
+.important-dates h3,
+.submission-link h3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.important-dates dd {
+  margin-bottom: 12px;
+}
+@media (max-width: 767px) {
+  .site-sidebar {
+    margin-top: 0;
+  }
+  .site-content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.site-content {
+  line-height: 1.65;
+}
+.site-content > h2:first-child {
+  margin-top: 20px;
+}
+.site-content h2 {
+  margin-bottom: 20px;
+}
+.important-dates {
+  padding: 0 15px;
+}
+.important-dates h3,
+.submission-link h3 {
+  text-align: left;
+}
+.important-dates dt {
+  font-weight: 600;
+}
+.important-dates dd {
+  color: #666;
+}
+@media (min-width: 1200px) {
+  .site-sidebar {
+    width: 22%;
+  }
+  .site-content {
+    width: 78%;
+  }
+}
+@media (max-width: 767px) {
+  .site-content {
+    padding-left: 15px;
+  }
+}
+
+.submission-link {
+  padding: 0 15px;
+  margin-top: 20px;
+}
+
+.submission-link h3 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.site-divider {
+  clear: both;
+}
+
+.sidebar-contact h3 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+
+.workshop-header {
+  padding-top: 0;
+}
+.workshop-header .site-heading {
+  text-align: center;
+}
+
+
+.workshop-header h1 {
+  margin-top: 0;
+}
