@@ -54,7 +54,7 @@ section li{margin-bottom:.35rem}
 .schedule tr.key td{font-weight:700;background:#fbeeee}
 .schedule tr.break td{color:#6c757d;font-style:italic}
 .cards>div{background:#fff;border:1px solid var(--line);border-top:3px solid var(--accent);padding:6px 22px 14px;margin-bottom:20px}
-.cards .section-subheading{margin-top:14px}
+.cards .section-subheading{margin-top:14px;color:var(--accent)}
 .cards p{margin-bottom:0}
 .pc{columns:2;column-gap:40px;list-style:none;padding-left:0}
 .pc li{break-inside:avoid}
