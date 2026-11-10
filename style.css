@@ -33,7 +33,7 @@ p{margin:0 0 1em}
 .dates th,#dates .table th{width:45%}
 .cols{display:grid;grid-template-columns:repeat(2,1fr);gap:0 40px}
 .cols.three{grid-template-columns:repeat(3,1fr)}
-footer{padding:30px 0;font-size:90%;border-top:1px solid var(--line);background:var(--alt)}
+footer{padding:30px 0;font-size:90%;border-top:1px solid var(--line);background:#fff}
 footer .container{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
 @media (min-width:768px){.intro-heading{font-size:60px}.intro-lead-in{font-size:26px}.intro-text{padding:200px 0 160px}}
 @media (max-width:900px){
