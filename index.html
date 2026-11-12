@@ -49,6 +49,7 @@
       <h2 class="section-heading">About the Workshop</h2>
       <p>The STRIDE workshop, co-located with <a href="https://2027.eurosys.org/">EuroSys 2027</a>, brings together researchers working on the design and operation of stable, reliable, and fault-tolerant AI infrastructures to discuss the next steps of AI infrastructure evolution.</p>
       <p>Large-scale AI infrastructures are an integral part of modern data centers and advance AI and its applications. Elastic fault tolerance mechanisms that dynamically adapt to workload changes and unexpected faults during training and inference are critical to maintaining continuous operation and minimizing performance degradation. New approaches at both software (model) and hardware levels are needed to break down the barriers between isolated software and hardware reliability mechanisms. Moreover, resilient AI agent infrastructures and rapid recovery technologies must handle massive dependencies between agents to prevent large-scale fault propagation. Finally, intensive interaction between heterogeneous CPUs and xPUs leads to high I/O load and complex communication patterns that pose new challenges to reliability.</p>
+      <p>It explores the new challenges that arise when clusters grow to 100K+ accelerators. Which reliability and resilience problems will become fundamentally more important? Which existing techniques will remain applicable at this scale, and which will face scalability limitations? What adaptations are needed because of the much larger failure domain, higher fault frequency, and longer-running workloads?</p>
       <p>STRIDE aims to attract contributions from academia and industry on system development, fault tolerance, reliability, stability, and AI method design. Infrastructure researchers from the big labs operating large AI infrastructures are explicitly invited to share insights into current infrastructure challenges.</p>
     </div>
   </section>
@@ -74,15 +75,17 @@
       <p>We invite contributions on highly reliable AI infrastructures for training and inference, with a focus on precision and stability, and on full-stack reliability of the software and hardware underpinning them. Production experience reports are particularly encouraged.</p>
       <h3 class="section-subheading">Topics of interest</h3>
       <ul>
-        <li>AI training and inference stability challenges (loss oscillations, convergence problems, norm spikes)</li>
-        <li>Root cause analysis, explainability, and mitigation approaches for instability</li>
-        <li>Numerical training robustness (error accumulation, convergence stability)</li>
-        <li>Detection, localization, and mitigation of silent data corruption, and the interplay of numerical errors and hardware faults</li>
+        <li>AI training and inference stability challenges</li>
         <li>Cost-effective checkpointing, localized recovery, and elastic reconfiguration</li>
-        <li>Inference and agent service continuity under failures, including latency and availability guarantees and recovery of KV caches, agent state, and sandbox environments</li>
-        <li>Production experience reports and evaluation methods linking infrastructure faults to training convergence, model quality, and SLOs</li>
+        <li>Observability, fault localization, root-cause analysis, and self-healing</li>
         <li>Software/hardware co-designed reliability</li>
-        <li>Reliability of large-scale distributed agent infrastructures: observability, fault localization, root cause analysis, self-healing, and reliable memory for long-horizon tasks</li>
+        <li>Root-cause explanation and mitigation of instability</li>
+        <li>Numerical training robustness (error accumulation, convergence stability)</li>
+        <li>Detection, localization, and mitigation of silent data corruption</li>
+        <li>Inference and agent service continuity under failures</li>
+        <li>Production experience reports and evaluation methods linking infrastructure faults to training convergence, model quality, and SLOs</li>
+        <li>Reliability of large-scale distributed agent infrastructures</li>
+        <li>Inference and agent service continuity under failures</li>
       </ul>
       <h3 class="section-subheading">Submission guidelines</h3>
       <ul>
